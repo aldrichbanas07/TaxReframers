@@ -1,0 +1,19 @@
+{
+  "name": "inner-circle",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Peer advisory network for principals: ask friends who actually know, find the gaps in your network, learn from precedent, keep a tamper-evident record of who advised what, and estimate how likely advice is to work against you.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "reset": "node server.js --reset",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "zod": "^4.6.7"
+  }
+}
